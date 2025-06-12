@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: yougou
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://localhost:3306/yougou
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 1234
